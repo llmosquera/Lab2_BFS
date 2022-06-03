@@ -80,18 +80,31 @@ if __name__ == "__main__":
     g.add_arista(3, 7)
     g.add_arista(3, 8)
    '''
+   
+    '''Ejemplo del caso unitario prueba 2
+    g.add_arista(2, 1)
+    g.add_arista(2, 3)
+    g.add_arista(1, 6)
+    g.add_arista(1, 3)
+    g.add_arista(3, 4)
+    g.add_arista(4, 5)
+    g.add_arista(4, 6)
+    g.add_arista(6, 5)
+   '''
 
     '''Agregue bordes al grafo con determinado  peso = 1 
     Estas lineas de codigo es para añadir los elementos de los nodos
     que tenemos que van recorriendo en cadena'''
-    g.add_arista(1, 2)
-    g.add_arista(2, 4)
-    g.add_arista(2, 5)
-    g.add_arista(5, 6)
-    g.add_arista(3, 6)
-    g.add_arista(3, 1)
-    g.add_arista(3, 7)
-    g.add_arista(3, 8)
+    g.add_arista(2, 1)
+    g.add_arista(2, 3)
+    g.add_arista(1, 6)
+    g.add_arista(1, 3)
+    g.add_arista(3, 4)
+    g.add_arista(4, 5)
+    g.add_arista(4, 6)
+    g.add_arista(6, 5)
+    
+   
    
 
 
@@ -100,6 +113,6 @@ if __name__ == "__main__":
     '''Imprimir el mensaje y la ubicación de donde empieza los grafos a recorrer'''
     print ("A continuación se muestra el reccorrido en amplitud"
                     " (Comenzando desde el vertice 0)")
-    g.bfs_traversal(1)
+    g.bfs_traversal(2)
     #Muestra la información por pantalla, ya sea números, texto
     print()
