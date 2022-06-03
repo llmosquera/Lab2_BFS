@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     '''Crear una instancia de los Grafos clase
     Este grafo no está dirigido y tiene 5 nodos el cual realizara su respectiva recorrido'''
-    g = Grafo(9, dirigido=False)
+    g = Grafo(6, dirigido=False)
     
     '''Ejemplo del caso unitario prueba 1
      g.add_arista(1, 2)
@@ -97,12 +97,16 @@ if __name__ == "__main__":
     que tenemos que van recorriendo en cadena'''
     g.add_arista(2, 1)
     g.add_arista(2, 3)
-    g.add_arista(1, 6)
-    g.add_arista(1, 3)
+    g.add_arista(1, 2)
+    g.add_arista(1, 4)
+    g.add_arista(3, 2)
     g.add_arista(3, 4)
+    g.add_arista(3, 5)
+    g.add_arista(4, 1)
+    g.add_arista(4, 3)
     g.add_arista(4, 5)
-    g.add_arista(4, 6)
-    g.add_arista(6, 5)
+    g.add_arista(5, 4)
+    g.add_arista(5, 4)
     
    
    
